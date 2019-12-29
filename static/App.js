@@ -1,3 +1,7 @@
 const contentNode = document.getElementById("contents");
-const component = <h1>Hello World!</h1>;
+const component = React.createElement(
+  "h1",
+  null,
+  "Hello World!"
+);
 ReactDOM.render(component, contentNode);
